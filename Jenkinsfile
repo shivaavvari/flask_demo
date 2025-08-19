@@ -9,7 +9,7 @@
         stages {
             stage('Checkout Code') {
                 steps {
-                    git url: 'https://github.com/shivaavvari/demo.git', branch: 'main' // Replace with your repo URL and branch
+                    git url: 'https://github.com/shivaavvari/flask_demo.git', branch: 'main' // Replace with your repo URL and branch
                 }
             }
 
